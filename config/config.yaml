@@ -1,0 +1,15 @@
+llm:
+  openai:
+    provider: openai
+    model_name: gpt-4o-mini
+  groq:
+    provider: groq
+    model_name: llama-3.1-8b-instant
+  openrouter:
+    provider: openrouter
+    model_name: openai/gpt-4o-mini
+    temperature: 0.7
+    max_tokens: null
+    http_referer: ""  # Optional: Your site URL for analytics
+    app_name: "AI Trip Planner"
+    
